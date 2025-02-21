@@ -1,5 +1,7 @@
 """03. Organizing The Inventory."""
 
+from collections import defaultdict
+
 
 def organize_inventory(
     inventory: list[dict[str, str | int]],
@@ -13,22 +15,19 @@ def organize_inventory(
     Returns:
         dict[str, dict[str, int]]: Organized inventory
     """
-    organized_inventory = {}
+    organized_inventory = defaultdict(dict)
 
     for obj in inventory:
         category = obj["category"]
         quantity = obj["quantity"]
         name = obj["name"]
 
-        if category in organized_inventory:
-            if name in organized_inventory[category]:
-                organized_inventory[category][name] += quantity
-            else:
-                organized_inventory[category][name] = quantity
+        if name in organized_inventory[category]:
+            organized_inventory[category][name] += quantity
         else:
-            organized_inventory[category] = {name: quantity}
+            organized_inventory[category][name] = quantity
 
-    return dict(organized_inventory)
+    return organized_inventory
 
 
 test_inventory1 = [
