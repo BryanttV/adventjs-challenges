@@ -15,17 +15,11 @@ def organize_inventory(
     Returns:
         dict[str, dict[str, int]]: Organized inventory
     """
-    organized_inventory = defaultdict(dict)
+    organized_inventory = defaultdict(lambda: defaultdict(int))
 
     for obj in inventory:
-        category = obj["category"]
-        quantity = obj["quantity"]
-        name = obj["name"]
-
-        if name in organized_inventory[category]:
-            organized_inventory[category][name] += quantity
-        else:
-            organized_inventory[category][name] = quantity
+        category, quantity, name = obj["category"], obj["quantity"], obj["name"]
+        organized_inventory[category][name] += quantity
 
     return organized_inventory
 
