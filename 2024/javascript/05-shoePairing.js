@@ -1,4 +1,4 @@
-// 05. Show Pairing.
+// 05. Shoe Pairing.
 
 /**
  * @param {{ type: 'I' | 'R', size: number }[]} shoes
