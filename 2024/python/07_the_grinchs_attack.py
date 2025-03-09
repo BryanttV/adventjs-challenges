@@ -1,4 +1,4 @@
-"""07. The Grinch's Attack"""
+"""Challenge #7: 👹 The Grinch's Attack."""
 
 import re
 

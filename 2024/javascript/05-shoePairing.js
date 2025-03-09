@@ -1,4 +1,4 @@
-// 05. Shoe Pairing.
+// Challenge #5: 👢 Shoe Pairing.
 
 /**
  * @param {{ type: 'I' | 'R', size: number }[]} shoes

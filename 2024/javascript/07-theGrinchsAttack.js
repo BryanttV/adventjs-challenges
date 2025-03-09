@@ -1,4 +1,4 @@
-// 07. The Grinch's Attack
+// Challenge #7: 👹 The Grinch's Attack.
 
 /** @param {string} packages with parentheses
  *  @returns {string} Fixed and sorted packages

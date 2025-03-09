@@ -1,4 +1,4 @@
-// 06. Is The Gift Inside The Box?
+// Challenge #6: 📦 Is The Gift Inside The Box?
 
 /** @param {string[]} box
  *  @returns {boolean} True if the gift is inside the box

@@ -1,4 +1,4 @@
-// 04. Decorating The Christmas Tree.
+// Challenge #4: 🎄Decorating The Christmas Tree.
 
 /**
  * @param {number} height - Height of the tree

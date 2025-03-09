@@ -1,4 +1,4 @@
-"""02. Framing Names."""
+"""Challenge #2: 🖼️ Framing Names."""
 
 
 def create_frame(names: list[str]) -> str:

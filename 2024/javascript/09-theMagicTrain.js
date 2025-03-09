@@ -1,4 +1,4 @@
-// Challenge #9: 🚂 The magic train
+// Challenge #9: 🚂 The Magic Train.
 
 /**
  * @param {string[]} board - Represent the train situation

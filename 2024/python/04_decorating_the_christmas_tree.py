@@ -1,4 +1,4 @@
-"""04. Decorating The Christmas Tree."""
+"""Challenge #4: 🎄Decorating The Christmas Tree."""
 
 
 def create_xmas_tree(height: int, ornament: str) -> str:

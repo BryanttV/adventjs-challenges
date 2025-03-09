@@ -1,4 +1,4 @@
-"""05. Shoe Pairing."""
+"""Challenge #5: 👢 Shoe Pairing."""
 
 from collections import defaultdict
 from typing import TypedDict

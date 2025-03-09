@@ -1,4 +1,4 @@
-// 03. Organizing The Inventory.
+// Challenge #3: 🏗️ Organizing The Inventory.
 
 /**
  * @param {{ name: string, quantity: number, category: string }[]} inventory

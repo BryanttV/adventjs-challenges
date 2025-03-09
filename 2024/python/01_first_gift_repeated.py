@@ -1,4 +1,4 @@
-"""01. First Gift Repeated!"""
+"""Challenge #1: 🎁 First Gift Repeated!"""
 
 
 def prepare_gifts(gifts: list) -> list:

@@ -1,3 +1,5 @@
+// Challenge #1: 🎁 First Gift Repeated!
+
 /**
  * @param {number[]} gifts - The array of gifts to prepare
  * @returns {number[]} An array with the prepared gifts

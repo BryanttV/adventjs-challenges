@@ -1,4 +1,4 @@
-"""06. Is The Gift Inside The Box?"""
+"""Challenge #6: 📦 Is The Gift Inside The Box?"""
 
 
 def in_box(box: list[str]) -> bool:

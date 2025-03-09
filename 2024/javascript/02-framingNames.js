@@ -1,4 +1,4 @@
-// 02. Framing Names.
+// Challenge #2: 🖼️ Framing Names.
 
 /**
  * @param {string[]} names - Array of names to frame

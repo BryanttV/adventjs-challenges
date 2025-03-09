@@ -1,4 +1,4 @@
-// 08. The Reno Race
+// Challenge #8: 🦌 The Reno Race.
 
 /**
  * @param {number[]} indices - The reno indices

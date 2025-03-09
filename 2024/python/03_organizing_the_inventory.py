@@ -1,4 +1,4 @@
-"""03. Organizing The Inventory."""
+"""Challenge #3: 🏗️ Organizing The Inventory."""
 
 from collections import defaultdict
 
