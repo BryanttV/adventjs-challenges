@@ -1,3 +1,5 @@
+"""Challenge #11: 🏴‍☠️ Filenames encoded."""
+
 import re
 
 def decode_filename(filename: str) -> str:
