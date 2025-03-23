@@ -18,10 +18,7 @@ def calculate_price(ornaments: str) -> int | None:
         if ornament not in values:
             return None
         value = values[ornament]
-        if value < prev_value:
-            total -= value
-        else:
-            total += value
+        total += -value if value < prev_value else value
         prev_value = value
 
     return total
